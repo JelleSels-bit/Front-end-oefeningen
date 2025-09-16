@@ -5,9 +5,9 @@ const ExerciseTitle: FunctionComponent<IExerciseTitle> = (props) => {
 
     const {name} = props
     return (
-        <li>
+        <h2 className={'ExerciseTitle'}>
             {name}
-        </li>
+        </h2>
     )
 }
 
