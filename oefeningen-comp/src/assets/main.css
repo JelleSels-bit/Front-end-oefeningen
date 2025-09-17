@@ -28,11 +28,20 @@
 /* Opmaak voor de component ExerciseOne */
 .exercise {
     display: flex;
+
+}
+
+.ProgressBar {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 400px;
+
 }
 
 .ExerciseTitle {
     font-family: "Lucida Sans", Monaco, monospace;
-    box-shadow: 7px 2px 8px 1px rgba(18,89,46,0.67);
+    box-shadow: 7px 2px 8px 1px rgba(18, 89, 46, 0.67);
     font-size: 3rem;
     letter-spacing: 3px;
     color: #3A5D9B;
@@ -53,3 +62,26 @@
     margin: 2em;
     width: fit-content;
 }
+
+.square {
+    width: 5em;
+    height: 5em;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.grid {
+    display: inline-block;
+    margin: 2.5em;
+}
+
