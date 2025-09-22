@@ -1,0 +1,48 @@
+@keyframes slideOutLeft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -60vw;
+  }
+    
+}
+
+@keyframes slideOutRight {
+  0% {
+    left: -60vw;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+.carousel__container {
+  display: flex;
+  overflow: hidden;
+  max-width: 60vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel__container > img {
+    position: relative;
+    left: 0;
+    width: 60vw;
+    height: auto;
+  }
+
+.carousel__container > &.slideOutLeft img {
+    animation-name: slideOutLeft;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+.carousel__container > &.slideOutRight img {
+    animation-name: slideOutRight;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
