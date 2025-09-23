@@ -1,4 +1,4 @@
-import { CSSProperties, FunctionComponent, PropsWithChildren } from 'react'
+import type { CSSProperties, FunctionComponent, PropsWithChildren } from 'react'
 
 const TabListContentContainer: FunctionComponent<PropsWithChildren> = ({ children }) => {
   const style: CSSProperties = {

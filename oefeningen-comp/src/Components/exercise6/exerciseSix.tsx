@@ -57,7 +57,7 @@ const ExerciseSix: FunctionComponent = () => {
 
 
   const clickHandler = (value: string) => {
-    console.log(value)
+
       if (value == "C")
         setNummer("")
       else if (value == 'Del')
