@@ -242,3 +242,6 @@ input:not(:active) + #h4-container h4 {
     animation-iteration-count: 1;
 }
 
+.tabsinhoud {
+    color: black;
+}
